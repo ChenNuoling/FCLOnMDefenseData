@@ -262,6 +262,7 @@ python ImageEnhance.py --data_dir = '原始图片存放路径' --output_dir = '�
 - [LightGBM](https://papers.nips.cc/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf)：LightGBM是一种高效的梯度提升框架，其核心逻辑基于直方图算法（将连续特征离散化为 bins 加速计算）和单边梯度采样（GOSS），保留大梯度样本并随机采样小梯度样本以提升训练速度。同时，它采用Leaf-wise 生长策略（仅分裂增益最大的叶子节点，而非 Level-wise），在降低计算开销的同时保持较高精度，尤其适合大规模数据和高维特征场景。
 
 # 3. 支持的相关联邦学习算法
+算法部分目前没有完整上传整理，该部分工作基于[去中心化联邦学习算法PuzzleFL](https://github.com/LINC-BIT/PuzzleFL)和[中心化联邦学习算法Loci](https://github.com/LINC-BIT/Loci)
 
 ## 3.1 支持的中心化联邦学习算法
 
